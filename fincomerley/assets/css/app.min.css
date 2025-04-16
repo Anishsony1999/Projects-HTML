@@ -50,7 +50,9 @@
 --gradient-top-left: linear-gradient(225deg, #000000ff, #ffc108ff, #ffffffff);
 --gradient-bottom-left: linear-gradient(315deg, #000000ff, #ffc108ff, #ffffffff);
 --gradient-radial: radial-gradient(#000000ff, #ffc108ff, #ffffffff);
-
+img{
+  max-width: 100%;
+}
  
 }
 footer {
@@ -1944,7 +1946,7 @@ header.aximo-header-section.aximo-header7.sticky-menu {
   margin-bottom: 0;
 }
 .aximo-footer-menu ul li a {
-  color: #2ceef0;
+      color: #2ceef0;
   font-size: 18px;
   line-height: 30px;
   transition: all 0.4s;
@@ -2192,7 +2194,7 @@ header.aximo-header-section.aximo-header7.sticky-menu {
   padding: 0 40px;
   border-radius: 3px;
   font-weight: 700;
-  /* width: 250px; */
+  /*width: 250px;*/
   font-family: "Poppins", sans-serif ;
   position: relative;
   z-index: 1;
@@ -2220,7 +2222,7 @@ header.aximo-header-section.aximo-header7.sticky-menu {
   padding: 0 40px;
   border-radius: 3px;
   font-weight: 700;
-  width: 250px;
+  /* width: 250px; */
   font-family: "Poppins", sans-serif ;
   position: relative;
   z-index: 1;
@@ -2233,7 +2235,6 @@ header.aximo-header-section.aximo-header7.sticky-menu {
   transition: all 0.4s ease-in-out;
   overflow: hidden;
   color: var(--light-bg1) !important;
-
   position: relative;
   z-index: 0;
   overflow: hidden;
@@ -2241,6 +2242,8 @@ header.aximo-header-section.aximo-header7.sticky-menu {
   height: 60px;
   line-height: 59px;
   transform-style: preserve-3d;
+  background: #1BF0EF;
+  background: linear-gradient(90deg, rgba(27, 240, 239, 1) 35%, rgba(148, 196, 63, 1) 97%);
 }
 @media (max-width: 767px) {
   .aximo-default-btn2 {
@@ -3245,7 +3248,7 @@ h1.post__title {
   }
 }
 .aximo-hero-section2 {
-  padding: 200px 0 135px;
+  padding: 0;
 }
 @media (max-width: 1250px) {
   .aximo-hero-section2 {
@@ -7794,16 +7797,16 @@ a.aximo-connect-login img {
   z-index: 1 !important;
 }
 .aximo-section-padding {
-  padding: 125px 0 130px;
+  padding: 30px 10px
 }
 @media (max-width: 991px) {
   .aximo-section-padding {
-    padding: 100px 0;
+    padding: 10px 0;
   }
 }
 @media (max-width: 767px) {
   .aximo-section-padding {
-    padding: 80px 0;
+    padding: 40px 0;
   }
 }
 .aximo-section-padding2 {
