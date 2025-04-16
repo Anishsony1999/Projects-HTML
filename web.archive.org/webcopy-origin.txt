@@ -1,0 +1,308 @@
+Uri: https://archive.org/includes/athena.js
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\includes\athena.js
+Content Type: application/x-javascript
+
+Uri: https://archive.org/services/img/commoncrawl
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\services\img\commoncrawl
+Content Type: image/jpeg
+
+Uri: https://web-static.archive.org/_static/css/banner-styles.css?v=p7PEIJWi
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\_static\css\banner-styles.css
+Content Type: text/css
+
+Uri: https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\_static\css\iconochive.css
+Content Type: text/css
+
+Uri: https://web-static.archive.org/_static/fonts/Iconochive-Regular.eot
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\_static\fonts\Iconochive-Regular.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://web-static.archive.org/_static/fonts/Iconochive-Regular.svg
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\_static\fonts\Iconochive-Regular.svg
+Content Type: image/svg+xml
+
+Uri: https://web-static.archive.org/_static/fonts/Iconochive-Regular.ttf
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\_static\fonts\Iconochive-Regular.ttf
+Content Type: font/ttf
+
+Uri: https://web-static.archive.org/_static/fonts/Iconochive-Regular.woff
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\_static\fonts\Iconochive-Regular.woff
+Content Type: font/woff
+
+Uri: https://web-static.archive.org/_static/images/loading.gif
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\_static\images\loading.gif
+Content Type: image/gif
+
+Uri: https://web-static.archive.org/_static/images/toolbar/wayback-toolbar-logo-100.png
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\_static\images\toolbar\wayback-toolbar-logo-100.png
+Content Type: image/png
+
+Uri: https://web-static.archive.org/_static/images/toolbar/wayback-toolbar-logo-150.png
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\_static\images\toolbar\wayback-toolbar-logo-150.png
+Content Type: image/png
+
+Uri: https://web-static.archive.org/_static/images/toolbar/wayback-toolbar-logo-200.png
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\_static\images\toolbar\wayback-toolbar-logo-200.png
+Content Type: image/png
+
+Uri: https://web-static.archive.org/_static/images/toolbar/wm_tb_nxt_off.png
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\_static\images\toolbar\wm_tb_nxt_off.png
+Content Type: image/png
+
+Uri: https://web-static.archive.org/_static/images/toolbar/wm_tb_prv_on.png
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\_static\images\toolbar\wm_tb_prv_on.png
+Content Type: image/png
+
+Uri: https://web-static.archive.org/_static/images/web-screenshot.svg
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\_static\images\web-screenshot.svg
+Content Type: image/svg+xml
+
+Uri: https://web-static.archive.org/_static/js/bundle-playback.js?v=msCHzjBE
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\_static\js\bundle-playback.js
+Content Type: application/javascript
+
+Uri: https://web-static.archive.org/_static/js/ruffle/ruffle.js
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\_static\js\ruffle\ruffle.js
+Content Type: application/javascript
+
+Uri: https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\_static\js\wombat.js
+Content Type: application/javascript
+
+Uri: https://web.archive.org/web/20240813170242js_/https://premarketpulse.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240813170242js_\https\premarketpulse.com\wp-includes\js\jquery\jquery.min.js
+Content Type: application/x-javascript
+
+Uri: https://web.archive.org/web/20240813171551im_/https://premarketpulse.com/wp-content/uploads/2024/01/image-6-150x150.webp
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240813171551im_\https\premarketpulse.com\wp-content\uploads\2024\01\image-6-150x150.webp
+Content Type: image/webp
+
+Uri: https://web.archive.org/web/20240813173139cs_/https://premarketpulse.com/wp-content/uploads/elementor/css/post-11.css?ver=1706588193
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240813173139cs_\https\premarketpulse.com\wp-content\uploads\elementor\css\post-11.css
+Content Type: text/css
+
+Uri: https://web.archive.org/web/20240813173303cs_/https://premarketpulse.com/wp-includes/css/dist/block-library/style.min.css?ver=6.4.5
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240813173303cs_\https\premarketpulse.com\wp-includes\css\dist\block-library\style.min.css
+Content Type: text/css
+
+Uri: https://web.archive.org/web/20240813173436im_/https://premarketpulse.com/wp-content/uploads/2024/01/image-4-150x150.webp
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240813173436im_\https\premarketpulse.com\wp-content\uploads\2024\01\image-4-150x150.webp
+Content Type: image/webp
+
+Uri: https://web.archive.org/web/20240813173739im_/https://premarketpulse.com/wp-content/uploads/2024/01/image-4-100x100.webp
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240813173739im_\https\premarketpulse.com\wp-content\uploads\2024\01\image-4-100x100.webp
+Content Type: image/webp
+
+Uri: https://web.archive.org/web/20240813173859cs_/https://premarketpulse.com/wp-content/themes/hello-elementor/style.min.css?ver=3.0.0
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240813173859cs_\https\premarketpulse.com\wp-content\themes\hello-elementor\style.min.css
+Content Type: text/css
+
+Uri: https://web.archive.org/web/20240813174050im_/https://premarketpulse.com/wp-content/uploads/2024/01/image-4.webp
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240813174050im_\https\premarketpulse.com\wp-content\uploads\2024\01\image-4.webp
+Content Type: image/webp
+
+Uri: https://web.archive.org/web/20240813174806js_/https://premarketpulse.com/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=5.3.6
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240813174806js_\https\premarketpulse.com\wp-content\plugins\elementor\assets\lib\swiper\swiper.min.js
+Content Type: application/x-javascript
+
+Uri: https://web.archive.org/web/20240813180024im_/https://premarketpulse.com/wp-content/uploads/2024/01/logo-premarket.svg
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240813180024im_\https\premarketpulse.com\wp-content\uploads\2024\01\logo-premarket.svg
+Content Type: image/svg+xml
+
+Uri: https://web.archive.org/web/20240813180101cs_/https://premarketpulse.com/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.19.0
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240813180101cs_\https\premarketpulse.com\wp-content\plugins\elementor\assets\lib\animations\animations.min.css
+Content Type: text/css
+
+Uri: https://web.archive.org/web/20240813180131js_/https://premarketpulse.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240813180131js_\https\premarketpulse.com\wp-includes\js\jquery\ui\core.min.js
+Content Type: application/x-javascript
+
+Uri: https://web.archive.org/web/20240813180248im_/https://premarketpulse.com/wp-content/plugins/wp-rocket/assets/img/youtube.png
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240813180248im_\https\premarketpulse.com\wp-content\plugins\wp-rocket\assets\img\youtube.png
+Content Type: image/png
+
+Uri: https://web.archive.org/web/20240813180321im_/https://premarketpulse.com/wp-content/uploads/2024/01/image-7-150x150.webp
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240813180321im_\https\premarketpulse.com\wp-content\uploads\2024\01\image-7-150x150.webp
+Content Type: image/webp
+
+Uri: https://web.archive.org/web/20240813180659cs_/https://premarketpulse.com/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.19.0
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240813180659cs_\https\premarketpulse.com\wp-content\plugins\elementor\assets\css\frontend.min.css
+Content Type: text/css
+
+Uri: https://web.archive.org/web/20240813182041im_/https://premarketpulse.com/wp-content/uploads/2024/01/Aditya.svg
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240813182041im_\https\premarketpulse.com\wp-content\uploads\2024\01\Aditya.svg
+Content Type: image/svg+xml
+
+Uri: https://web.archive.org/web/20240813182243cs_/https://premarketpulse.com/wp-content/themes/hello-elementor/header-footer.min.css?ver=3.0.0
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240813182243cs_\https\premarketpulse.com\wp-content\themes\hello-elementor\header-footer.min.css
+Content Type: text/css
+
+Uri: https://web.archive.org/web/20240813182309im_/https://premarketpulse.com/wp-content/uploads/2024/01/bottom-text.png
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240813182309im_\https\premarketpulse.com\wp-content\uploads\2024\01\bottom-text.png
+Content Type: image/png
+
+Uri: https://web.archive.org/web/20240813183646im_/https://premarketpulse.com/wp-content/uploads/2024/01/image-8-100x100.webp
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240813183646im_\https\premarketpulse.com\wp-content\uploads\2024\01\image-8-100x100.webp
+Content Type: image/webp
+
+Uri: https://web.archive.org/web/20240813184122im_/https://premarketpulse.com/wp-content/uploads/2024/01/image-3-100x100.webp
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240813184122im_\https\premarketpulse.com\wp-content\uploads\2024\01\image-3-100x100.webp
+Content Type: image/webp
+
+Uri: https://web.archive.org/web/20240813193051im_/https://premarketpulse.com/wp-content/uploads/2024/01/thumb_Fav-1-300x300.png
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240813193051im_\https\premarketpulse.com\wp-content\uploads\2024\01\thumb_Fav-1-300x300.png
+Content Type: image/png
+
+Uri: https://web.archive.org/web/20240813193400cs_/https://premarketpulse.com/wp-content/uploads/elementor/css/post-88.css?ver=1723474017
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240813193400cs_\https\premarketpulse.com\wp-content\uploads\elementor\css\post-88.css
+Content Type: text/css
+
+Uri: https://web.archive.org/web/20240813200834cs_/https://premarketpulse.com/wp-content/themes/hello-elementor-child/ctc-style.css?ver=6.4.5
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240813200834cs_\https\premarketpulse.com\wp-content\themes\hello-elementor-child\ctc-style.css
+Content Type: text/css
+
+Uri: https://web.archive.org/web/20240813202501im_/https://premarketpulse.com/wp-content/uploads/2024/01/Vipul.svg
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240813202501im_\https\premarketpulse.com\wp-content\uploads\2024\01\Vipul.svg
+Content Type: image/svg+xml
+
+Uri: https://web.archive.org/web/20240813204532im_/https://premarketpulse.com/wp-content/uploads/2024/01/image-one.png
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240813204532im_\https\premarketpulse.com\wp-content\uploads\2024\01\image-one.png
+Content Type: image/png
+
+Uri: https://web.archive.org/web/20240813215016js_/https://premarketpulse.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.19.0
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240813215016js_\https\premarketpulse.com\wp-content\plugins\elementor\assets\js\frontend.min.js
+Content Type: application/x-javascript
+
+Uri: https://web.archive.org/web/20240813221511im_/https://premarketpulse.com/wp-content/uploads/2024/01/Bnaner-shadow.png
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240813221511im_\https\premarketpulse.com\wp-content\uploads\2024\01\Bnaner-shadow.png
+Content Type: image/png
+
+Uri: https://web.archive.org/web/20240813230842im_/https://premarketpulse.com/wp-content/uploads/2024/01/image-8-150x150.webp
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240813230842im_\https\premarketpulse.com\wp-content\uploads\2024\01\image-8-150x150.webp
+Content Type: image/webp
+
+Uri: https://web.archive.org/web/20240813233336js_/https://premarketpulse.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.19.0
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240813233336js_\https\premarketpulse.com\wp-content\plugins\elementor\assets\js\webpack.runtime.min.js
+Content Type: application/x-javascript
+
+Uri: https://web.archive.org/web/20240814001531js_/https://premarketpulse.com/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240814001531js_\https\premarketpulse.com\wp-content\plugins\wp-rocket\assets\js\lazyload\17.8.3\lazyload.min.js
+Content Type: application/x-javascript
+
+Uri: https://web.archive.org/web/20240814021037cs_/https://premarketpulse.com/wp-content/uploads/elementor/css/global.css?ver=1706588193
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240814021037cs_\https\premarketpulse.com\wp-content\uploads\elementor\css\global.css
+Content Type: text/css
+
+Uri: https://web.archive.org/web/20240814022904cs_/https://premarketpulse.com/wp-content/uploads/elementor/css/post-96.css?ver=1706588194
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240814022904cs_\https\premarketpulse.com\wp-content\uploads\elementor\css\post-96.css
+Content Type: text/css
+
+Uri: https://web.archive.org/web/20240814031440cs_/https://premarketpulse.com/wp-content/plugins/elementor/assets/lib/swiper/css/swiper.min.css?ver=5.3.6
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240814031440cs_\https\premarketpulse.com\wp-content\plugins\elementor\assets\lib\swiper\css\swiper.min.css
+Content Type: text/css
+
+Uri: https://web.archive.org/web/20240814035510im_/https://premarketpulse.com/wp-content/uploads/2024/01/image-2.png
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240814035510im_\https\premarketpulse.com\wp-content\uploads\2024\01\image-2.png
+Content Type: image/png
+
+Uri: https://web.archive.org/web/20240814044819js_/https://premarketpulse.com/wp-content/plugins/elementor/assets/js/preloaded-modules.min.js?ver=3.19.0
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240814044819js_\https\premarketpulse.com\wp-content\plugins\elementor\assets\js\preloaded-modules.min.js
+Content Type: application/x-javascript
+
+Uri: https://web.archive.org/web/20240814051520js_/https://premarketpulse.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240814051520js_\https\premarketpulse.com\wp-includes\js\jquery\jquery-migrate.min.js
+Content Type: application/x-javascript
+
+Uri: https://web.archive.org/web/20240814061945im_/https://premarketpulse.com/wp-content/uploads/2024/02/group@2x.png
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240814061945im_\https\premarketpulse.com\wp-content\uploads\2024\02\group@2x.png
+Content Type: image/png
+
+Uri: https://web.archive.org/web/20240814080724im_/https://premarketpulse.com/wp-content/uploads/2024/01/image-5-150x150.webp
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240814080724im_\https\premarketpulse.com\wp-content\uploads\2024\01\image-5-150x150.webp
+Content Type: image/webp
+
+Uri: https://web.archive.org/web/20240814081530im_/https://premarketpulse.com/wp-content/uploads/2024/01/thumb_Fav-1-100x100.png
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240814081530im_\https\premarketpulse.com\wp-content\uploads\2024\01\thumb_Fav-1-100x100.png
+Content Type: image/png
+
+Uri: https://web.archive.org/web/20240814084825im_/https://premarketpulse.com/wp-content/uploads/2024/01/image-6-100x100.webp
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240814084825im_\https\premarketpulse.com\wp-content\uploads\2024\01\image-6-100x100.webp
+Content Type: image/webp
+
+Uri: https://web.archive.org/web/20240814085705im_/https://premarketpulse.com/wp-content/uploads/2024/01/image-7.webp
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240814085705im_\https\premarketpulse.com\wp-content\uploads\2024\01\image-7.webp
+Content Type: image/webp
+
+Uri: https://web.archive.org/web/20240814091802js_/https://premarketpulse.com/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.9.0
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240814091802js_\https\premarketpulse.com\wp-content\plugins\elementor\assets\lib\dialog\dialog.min.js
+Content Type: application/x-javascript
+
+Uri: https://web.archive.org/web/20240814092610im_/https://premarketpulse.com/wp-content/uploads/2024/01/Ellipse-7-1.svg
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240814092610im_\https\premarketpulse.com\wp-content\uploads\2024\01\Ellipse-7-1.svg
+Content Type: image/svg+xml
+
+Uri: https://web.archive.org/web/20240814120857im_/https://premarketpulse.com/wp-content/uploads/2024/01/image-3.webp
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240814120857im_\https\premarketpulse.com\wp-content\uploads\2024\01\image-3.webp
+Content Type: image/webp
+
+Uri: https://web.archive.org/web/20240814203801im_/https://premarketpulse.com/wp-content/uploads/2024/01/image-7-100x100.webp
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240814203801im_\https\premarketpulse.com\wp-content\uploads\2024\01\image-7-100x100.webp
+Content Type: image/webp
+
+Uri: https://web.archive.org/web/20240814220640im_/https://premarketpulse.com/wp-content/uploads/2024/01/image-6.webp
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240814220640im_\https\premarketpulse.com\wp-content\uploads\2024\01\image-6.webp
+Content Type: image/webp
+
+Uri: https://web.archive.org/web/20240814235348im_/https://premarketpulse.com/wp-content/uploads/2024/01/image-5.webp
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240814235348im_\https\premarketpulse.com\wp-content\uploads\2024\01\image-5.webp
+Content Type: image/webp
+
+Uri: https://web.archive.org/web/20240815015111cs_/https://premarketpulse.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240815015111cs_\https\premarketpulse.com\wp-content\plugins\elementor\assets\lib\font-awesome\css\fontawesome.min.css
+Content Type: text/css
+
+Uri: https://web.archive.org/web/20240815020804cs_/https://premarketpulse.com/wp-content/themes/hello-elementor/theme.min.css?ver=3.0.0
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240815020804cs_\https\premarketpulse.com\wp-content\themes\hello-elementor\theme.min.css
+Content Type: text/css
+
+Uri: https://web.archive.org/web/20240815033731im_/https://premarketpulse.com/wp-content/uploads/2024/01/slice-pixxa.png
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240815033731im_\https\premarketpulse.com\wp-content\uploads\2024\01\slice-pixxa.png
+Content Type: image/png
+
+Uri: https://web.archive.org/web/20240815034632cs_/https://premarketpulse.com/wp-content/plugins/ays-popup-box/public/css/ays-pb-public-min.css?ver=4.1.2
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240815034632cs_\https\premarketpulse.com\wp-content\plugins\ays-popup-box\public\css\ays-pb-public-min.css
+Content Type: text/css
+
+Uri: https://web.archive.org/web/20240815035843js_/https://premarketpulse.com/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js?ver=3.19.0
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240815035843js_\https\premarketpulse.com\wp-content\plugins\elementor\assets\lib\share-link\share-link.min.js
+Content Type: application/x-javascript
+
+Uri: https://web.archive.org/web/20240815065651js_/https://premarketpulse.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.19.0
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240815065651js_\https\premarketpulse.com\wp-content\plugins\elementor\assets\js\frontend-modules.min.js
+Content Type: application/x-javascript
+
+Uri: https://web.archive.org/web/20240815075630im_/https://premarketpulse.com/wp-content/uploads/2024/01/image-3-150x150.webp
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240815075630im_\https\premarketpulse.com\wp-content\uploads\2024\01\image-3-150x150.webp
+Content Type: image/webp
+
+Uri: https://web.archive.org/web/20240815174240js_/https://premarketpulse.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240815174240js_\https\premarketpulse.com\wp-content\plugins\elementor\assets\lib\waypoints\waypoints.min.js
+Content Type: application/x-javascript
+
+Uri: https://web.archive.org/web/20240816084145im_/https://premarketpulse.com/wp-content/uploads/2024/01/image-8.webp
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20240816084145im_\https\premarketpulse.com\wp-content\uploads\2024\01\image-8.webp
+Content Type: image/webp
+
+Uri: https://web.archive.org/web/20250113150220cs_/https://fonts.googleapis.com/css?family=Roboto:100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic|Roboto+Slab:100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic|Poppins:100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic|Inter:100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&display=swap&ver=6.4.5
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20250113150220cs_\https\fonts.googleapis.com\css
+Content Type: text/css
+
+Uri: https://web.archive.org/web/20250126112351/https://premarketpulse.com/
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20250126112351\https\premarketpulse.com\index.htm
+Content Type: text/html
+
+Uri: https://web.archive.org/web/20250126112351if_/https:/www.googletagmanager.com/ns.html?id=GTM-5HZVQZM2
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\web.archive.org\web\20250126112351if_\https\www.googletagmanager.com\ns.html
+Content Type: text/html
+

@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page </title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        
+        body {
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .left-section {
+            flex: 1;
+            padding: 20px;
+            min-width: 300px;
+            border-right: 1px solid #eee;
+        }
+        
+        .right-section {
+            flex: 1;
+            padding: 20px;
+            min-width: 300px;
+            background-color: #f8f9fa;
+        }
+        
+        h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        
+        .vendor {
+            color: #666;
+            margin-bottom: 20px;
+        }
+        
+        .price {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        
+        .plan-card {
+            background-color: #000;
+            color: white;
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 20px;
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            max-width: 450px;
+        }
+        
+        .plan-card h2 {
+            font-size: 36px;
+            margin-bottom: 50px;
+        }
+        
+        .plan-card .price {
+            font-size: 32px;
+        }
+        
+        .chart-icon {
+            position: absolute;
+            bottom: 30px;
+            right: 30px;
+            width: 100px;
+            height: 100px;
+        }
+        
+        .offer {
+            color: #0066ff;
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+        
+        .offer span {
+            font-weight: bold;
+            color: #0066ff;
+        }
+        
+        .instructions {
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        
+        .note {
+            color: #555;
+            margin-bottom: 20px;
+        }
+        
+        .support {
+            margin-top: 30px;
+            color: #555;
+        }
+        
+        .support a {
+            color: #0066ff;
+            text-decoration: none;
+        }
+        
+        .divider {
+            height: 1px;
+            background-color: #eee;
+            margin: 30px 0;
+        }
+        
+        .payment-details h2 {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+        
+        .payment-details p {
+            color: #666;
+            margin-bottom: 30px;
+        }
+        
+        .billing-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .billing-card h3 {
+            margin-bottom: 15px;
+            font-size: 18px;
+            font-weight: 500;
+        }
+        
+        .form-group {
+            margin-bottom: 15px;
+        }
+        
+        .form-control {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        
+        .phone-input {
+            display: flex;
+        }
+        
+        .country-code {
+            display: flex;
+            align-items: center;
+            padding: 0 10px;
+            background-color: white;
+            border: 1px solid #ddd;
+            border-right: none;
+            border-radius: 5px 0 0 5px;
+        }
+        
+        .country-code img {
+            margin-right: 5px;
+        }
+        
+        .phone-input input {
+            border-radius: 0 5px 5px 0;
+        }
+        
+        .service-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .service-card h3 {
+            margin-bottom: 15px;
+            font-size: 18px;
+            font-weight: 500;
+        }
+        
+        .service-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+        }
+        
+        .service-divider {
+            height: 1px;
+            background-color: #eee;
+            margin: 15px 0;
+        }
+        
+        .amount {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+        }
+        
+        .btn-pay {
+            width: 100%;
+            padding: 15px;
+            background-color: #ccc;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-bottom: 20px;
+        }
+        
+        .payment-methods {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 15px;
+        }
+        
+        .payment-methods img {
+            height: 25px;
+            object-fit: contain;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+            
+            .left-section {
+                border-right: none;
+                border-bottom: 1px solid #eee;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <h1>Limited Offer</h1>
+            <p class="vendor">By The Market Mood</p>
+            <div class="price">₹99</div>
+            
+            <div class="plan-card">
+                <h2>Limited Offer</h2>
+                <div class="price">₹99</div>
+                <div class="chart-icon">
+                    
+                </div>
+            </div>
+            
+            <div class="offer">Choose 1 Year Plan to get <span>55% off</span></div>
+            
+            <p class="instructions">After making payment, please wait till you get the "Join WhatsApp Group" button.</p>
+            
+            <p class="note">You'll also receive a confirmation email after payment. Please check all folders, including promotions and spam, for it.</p>
+            
+            <div class="support">
+                <p>For any support, contact us:</p>
+                <p>Mail - <a href="mailto:fincomerley@gmail.com">fincomerley@gmail.com</a></p>
+                <p>WhatsApp +91 741 651 3244</p>
+            </div>
+            
+            <div class="divider"></div>
+        </div>
+        
+        <div class="right-section">
+            <div class="payment-details">
+                <h2>Payment details</h2>
+                <p>Complete your purchase by providing your payment details.</p>
+                
+                <div class="billing-card">
+                    <h3>Billing information</h3>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <div class="phone-input">
+                            <div class="country-code">
+                                <img src="https://flagcdn.com/w20/in.png" alt="India flag" width="20">
+                                +91
+                            </div>
+                            <input type="tel" class="form-control" placeholder="Phone">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <h3>Service</h3>
+                    <div class="service-item">
+                        <span>limited offer</span>
+                        <span>₹99.00</span>
+                    </div>
+                    
+                    <div class="service-divider"></div>
+                    
+                    <div class="amount">
+                        <span>Amount to be paid :</span>
+                        <span>₹99.00</span>
+                    </div>
+                </div>
+                
+                <button class="btn-pay">Proceed to pay ₹99.00</button>
+                
+                <!-- <div class="payment-methods">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/UPI-Logo-vector.svg/1200px-UPI-Logo-vector.svg.png" alt="UPI">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Paytm_Logo_%28standalone%29.svg/2560px-Paytm_Logo_%28standalone%29.svg.png" alt="Paytm">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Visa_Inc._logo.svg/2560px-Visa_Inc._logo.svg.png" alt="Visa">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mastercard-logo.svg/1280px-Mastercard-logo.svg.png" alt="Mastercard">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/RuPay-Logo.png/1200px-RuPay-Logo.png" alt="RuPay">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Google_Pay_Logo_%282020%29.svg/2560px-Google_Pay_Logo_%282020%29.svg.png" alt="Google Pay">
+                </div> -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>

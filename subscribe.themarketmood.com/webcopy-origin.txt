@@ -1,0 +1,72 @@
+Uri: https://checkout.razorpay.com/v1/checkout.js
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\subscribe.themarketmood.com\v1\checkout.js
+Content Type: application/javascript
+
+Uri: https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\subscribe.themarketmood.com\css2
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,600&display=swap
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\subscribe.themarketmood.com\css2-1
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/inter/v18/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuGKYMZg.ttf
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\subscribe.themarketmood.com\s\inter\v18\UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuGKYMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v18/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuI6fMZg.ttf
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\subscribe.themarketmood.com\s\inter\v18\UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuI6fMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v18/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfMZg.ttf
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\subscribe.themarketmood.com\s\inter\v18\UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLEj6V1s.ttf
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\subscribe.themarketmood.com\s\poppins\v22\pxiByp8kv8JHgFVrLEj6V1s.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v22/pxiDyp8kv8JHgFVrJJLmr19lEA.ttf
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\subscribe.themarketmood.com\s\poppins\v22\pxiDyp8kv8JHgFVrJJLmr19lEA.ttf
+Content Type: font/ttf
+
+Uri: https://securegw.paytm.in/merchantpgpui/checkoutjs/merchants/rkWvnu77253333592355.js
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\subscribe.themarketmood.com\merchantpgpui\checkoutjs\merchants\rkWvnu77253333592355.js
+Content Type: application/javascript
+
+Uri: https://subscribe.themarketmood.com/web/checkout/675a8f35e467052f849896ce
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\subscribe.themarketmood.com\web\checkout\675a8f35e467052f849896ce.html
+Content Type: text/html
+
+Uri: https://subscribe.themarketmood.com/_next/static/chunks/2443530c-c0ea4d4d7b5e3b6c.js
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\subscribe.themarketmood.com\_next\static\chunks\2443530c-c0ea4d4d7b5e3b6c.js
+Content Type: text/javascript
+
+Uri: https://subscribe.themarketmood.com/_next/static/chunks/961-7d5a9e01dfd53302.js
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\subscribe.themarketmood.com\_next\static\chunks\961-7d5a9e01dfd53302.js
+Content Type: text/javascript
+
+Uri: https://subscribe.themarketmood.com/_next/static/chunks/main-app-bb36edf2e362c91f.js
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\subscribe.themarketmood.com\_next\static\chunks\main-app-bb36edf2e362c91f.js
+Content Type: text/javascript
+
+Uri: https://subscribe.themarketmood.com/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\subscribe.themarketmood.com\_next\static\chunks\polyfills-c67a75d1b6f99dc8.js
+Content Type: text/javascript
+
+Uri: https://subscribe.themarketmood.com/_next/static/chunks/webpack-74757ce8c01ead54.js
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\subscribe.themarketmood.com\_next\static\chunks\webpack-74757ce8c01ead54.js
+Content Type: text/javascript
+
+Uri: https://subscribe.themarketmood.com/_next/static/css/3bee41b439aa9434.css
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\subscribe.themarketmood.com\_next\static\css\3bee41b439aa9434.css
+Content Type: text/css
+
+Uri: https://subscribe.themarketmood.com/_next/static/css/e8134685caff5c69.css
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\subscribe.themarketmood.com\_next\static\css\e8134685caff5c69.css
+Content Type: text/css
+
+Uri: https://tagmango.com/staticassets/-logo2-f628e5d9fd45282657b37277db6b16f5.png
+File Name: C:\Users\HP\OneDrive\Desktop\htmls\projects\subscribe.themarketmood.com\staticassets\-logo2-f628e5d9fd45282657b37277db6b16f5.png
+Content Type: image/png
+
