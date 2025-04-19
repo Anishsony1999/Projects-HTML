@@ -5,8 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="icon" href="assets/images/favicon.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .accordion-button:not(.collapsed) {
+            background: #1BF0EF;
+            background: linear-gradient(90deg, rgba(27, 240, 239, 1) 35%, rgba(148, 196, 63, 1) 97%);
+            color: #000;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
     <header style="background-color: #000;" id="desktop-menu" >
@@ -14,8 +23,25 @@
           <nav class="navbar site-navbar d-flex justify-content-start align-items-center ">
             <div class="brand-logo m-0">
               <a href="index.html">
-                <img src="assets/images/fincomerly-logo24.png" alt="" class="light-version-logo" width="300">
+                <img src="assets/images/fincomerly-logo24-(1)22.png" alt="" class="light-version-logo" width="300">
               </a>
+            </div>
+          </nav>    
+        </div>
+      </header>
+      <header style="background-color: #000;" id="mobile-menu" >
+        <div class="container ">
+          <nav class="navbar site-navbar d-flex justify-content-between align-items-center ">
+            <div class="brand-logo m-0">
+              <a href="index.html">
+                <img src="assets/images/fincomerly-logo24-(1)22.png" alt="" class="light-version-logo" width="180">
+              </a>
+            </div>
+            <div>
+              <a href="assets/pdfs/FINCOMERLEY MARKET MONITOR 16-04-2025-1.pdf" download class="d-flex align-items-center gap-2 btn bg-white text-dark p-1 text-decoration-none">
+                <i class="fa-solid fa-file-pdf text-danger fs-6"></i>
+                <span class="text-dark fs-8 fw-bold">Sample PDF</span>
+            </a>
             </div>
           </nav>    
         </div>
@@ -59,226 +85,272 @@
                             <div class="step-icon">
                                 <i class="fa-solid fa-indian-rupee-sign"></i>
                             </div>
-                            <h3 class="step-title">Step 1</h3>
-                            <p class="step-description">Choose a plan and make a payment.</p>
+                            <h3 class="step-title text-dark">Step 1</h3>
+                            <p class="step-description text-dark">Choose a plan and make a payment.</p>
                         </div>
                         <div class="step-card">
                             <div class="step-icon">
                                 <i class="fa-brands fa-whatsapp"></i>
                             </div>
-                            <h3 class="step-title">Step 2</h3>
-                            <p class="step-description">We will add you to our WhatsApp community.</p>
+                            <h3 class="step-title text-dark">Step 2</h3>
+                            <p class="step-description text-dark">We will add you to our WhatsApp community.</p>
                         </div>
                         <div class="step-card">
                             <div class="step-icon">
                                 <i class="fa-solid fa-file-pdf"></i>
                             </div>
-                            <h3 class="step-title">Step 3</h3>
-                            <p class="step-description">Done! Every day, before the market opens, you'll receive a detailed Pre-Market Report directly on WhatsApp.</p>
+                            <h3 class="step-title text-dark">Step 3</h3>
+                            <p class="step-description text-dark">Done! Every day, before the market opens, you'll receive a detailed Pre-Market Report directly on WhatsApp.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+
+
+
     <section class="py-5 section-Pre-Market">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 mx-auto text-center">
                     <h2 class="section-title">What's Inside Our Pre-Market Report?</h2>
-                    <p class="section-description text-white">
+                    <p class="section-description text-white text-start text-lg-center ">
                         Our report makes the stock market easy to understand by gathering key updates from publicly available and reputable sources. We present the most important information in a simple and clear format, so you can quickly stay informed and save time in gathering information.
                     </p>
                 </div>
                 <hr>
                 <div class="col-lg-12 mx-auto text-center">
                     <h2 class="section-title">Market Sentiment Analysis</h2>
-                    <p class="section-description text-white">
+                    <p class="section-description text-white text-start text-lg-center ">
                         This section covers the overall market mood, the performance of Nifty 50 stocks, key data like India VIX, FII/DII activity, and the fear index. Understanding these helps you gauge market direction, investor confidence, and potential volatility, which is essential for making informed trading decisions.
                     </p>
                 </div>
 
-                    <div class="market-details mt-5">
-                        <div class="row">
-                            <div class="col-lg-6 mb-4">
-                                <div class="detail-card">
-                                    <h4 class="detail-title text-center text-success fs-2 fw-bold">Global Indices Update</h4>
-                                    <ul class="detail-list text-start fs-5">
-                                        <li>GIFT Nifty</li>
-                                        <li>Dow Jones</li>
-                                        <li>Nasdaq</li>
-                                        <li>S&P 500</li>
-                                        <li>Hang Seng</li>
-                                        <li>Nikkei 225</li>
-                                        <li>FTSE 100</li>
-                                        <li>KOSPI</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 mb-4">
-                                <div class="detail-card">
-                                    <h4 class="detail-title text-start text-success fs-2 fw-bold">Indian Indices Update</h4>
-                                    <ul class="detail-list text-start fs-5">
-                                        <li>Nifty 50</li>
-                                        <li>Nifty Bank</li>
-                                        <li>Sensex</li>
-                                        <li>Gold FUT</li>
-                                        <li>Crude Oil FUT</li>
-                                    </ul>
-                                </div>
-                            </div>
+                <div class="container">
+                    <h2 class="text-center mb-5 text-white">What You Will Learn</h2>
+                    <div class="accordion" id="learningAccordion">
+                  
+                      <!-- Global Indices Update -->
+                      <div class="accordion-item border-0 mb-3 rounded-4">
+                        <h3 class="accordion-header">
+                          <button class="accordion-button rounded-4 fs-5 p-4" type="button" data-bs-toggle="collapse" data-bs-target="#globalIndices">
+                            <i class="fas fa-building me-2"></i>Global Indices Update
+                          </button>
+                        </h3>
+                        <div id="globalIndices" class="accordion-collapse collapse show" data-bs-parent="#learningAccordion">
+                          <div class="accordion-body">
+                            <ul class="list-unstyled fs-5">
+                              <li><i class="fas fa-check-circle text-success me-2"></i>GIFT Nifty</li>
+                              <li><i class="fas fa-check-circle text-success me-2"></i>Dow Jones</li>
+                              <li><i class="fas fa-check-circle text-success me-2"></i>Nasdaq</li>
+                              <li><i class="fas fa-check-circle text-success me-2"></i>S&P 500</li>
+                              <li><i class="fas fa-check-circle text-success me-2"></i>Hang Seng</li>
+                              <li><i class="fas fa-check-circle text-success me-2"></i>Nikkei 225</li>
+                              <li><i class="fas fa-check-circle text-success me-2"></i>FTSE 100</li>
+                              <li><i class="fas fa-check-circle text-success me-2"></i>KOSPI</li>
+                            </ul>
+                          </div>
                         </div>
-                    </div>
-
-                    <div class="market-details mt-5">
-                        <div class="row">
-                            <div class="col-lg-6 mb-4">
-                                <div class="detail-card">
-                                    <h4 class="detail-title text-success fs-2 fw-bold ">Top 2 Performers and Underperformers</h4>
-                                    <p class="text-white">This section highlights the top and bottom performers across sectors and stocks in Nifty 50 and broader markets, helping you spot opportunities and risks easily.</p>
-                                    <ul class="detail-list text-start fs-5">
-                                        <li>Sectors</li>
-                                        <li>Nifty 50</li>
-                                        <li>Large Cap</li>
-                                        <li>Mid Cap</li>
-                                        <li>Small Cap</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 mb-4 d-flex flex-column gap-4">
-                                <div class="row mx-auto">
-                                    <div class="detail-card">
-                                        <h4 class="detail-title mb-3 text-success fs-2 fw-bold">Trending Stocks (from Nifty 500)</h4>
-                                        <p class="text-dark fs-5">Here, you get stocks with high volume and high delivery percentage.</p>
-                                    </div>
-                                </div>
-                                <div class="row mx-auto">
-                                    <div class="detail-card">
-                                        <h4 class="detail-title mb-3 text-success fs-2 fw-bold">High Volume Stocks</h4>
-                                        <p class="text-dark fs-5">High volume indicates strong liquidity and market interest, making it easier to trade and spot potential price movements.</p>
-                                    </div>
-                                </div>
-                                <div class="row mx-auto">
-                                    <div class="detail-card">
-                                        <h4 class="detail-title mb-3 text-success fs-2 fw-bold">High Delivery Percentage Stocks</h4>
-                                        <p class="text-dark fs-5">A high delivery percentage shows long-term investor confidence, suggesting accumulation and potential future growth.</p>
-                                    </div>
-                                </div>
-                            </div>
+                      </div>
+                  
+                      <!-- Indian Indices Update -->
+                      <div class="accordion-item border-0 mb-3 rounded-4">
+                        <h3 class="accordion-header">
+                          <button class="accordion-button collapsed rounded-4 fs-5 p-4" type="button" data-bs-toggle="collapse" data-bs-target="#indianIndices">
+                            <i class="fas fa-tools me-2"></i>Indian Indices Update
+                          </button>
+                        </h3>
+                        <div id="indianIndices" class="accordion-collapse collapse" data-bs-parent="#learningAccordion">
+                          <div class="accordion-body">
+                            <ul class="list-unstyled fs-5">
+                              <li><i class="fas fa-check-circle text-success me-2"></i>Nifty 50</li>
+                              <li><i class="fas fa-check-circle text-success me-2"></i>Nifty Bank</li>
+                              <li><i class="fas fa-check-circle text-success me-2"></i>Sensex</li>
+                              <li><i class="fas fa-check-circle text-success me-2"></i>Gold FUT</li>
+                              <li><i class="fas fa-check-circle text-success me-2"></i>Crude Oil FUT</li>
+                            </ul>
+                          </div>
                         </div>
-                    </div>
-
-                    <div class="market-details mt-5">
-                        <div class="row">
-                            <div class="col-lg-4 mb-4">
-                                <div class="detail-card">
-                                    <h4 class="detail-title mb-3 text-success fs-2 fw-bold">Market summary</h4>
-                                    <p class="text-dark fs-5">Start your day with a quick and clear guide to everything you need to know before the market opens. Get an overview of what happened in the Indian stock markets yesterday and how global markets performed. Packed with crucial insights, it's designed to give every trader and investor a clear idea of key trends and opportunities in just minutes.</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 mb-4">
-                                <div class="detail-card">
-                                    <h4 class="detail-title mb-3 text-success fs-2 fw-bold">Key Premarket Updates</h4>
-                                    <p class="text-dark fs-5">Get the most important updates before the market opens. From major events to policy announcements that directly or indirectly impact the stock market, everything is summarized for you. Clear, concise, and in simple language—saving you time while keeping you informed.</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 mb-4">
-                                <div class="detail-card">
-                                    <h4 class="detail-title mb-3 text-success fs-2 fw-bold">Technical analysis</h4>
-                                    <p class="text-dark fs-5">Get a clear market view with technical analysis of Nifty, Bank Nifty, call and put option trends, and FII/DII activity. All insights are sourced from trusted publications to help you trade smarter and stay ahead.</p>
-                                </div>
-                            </div>
+                      </div>
+                  
+                      <!-- Trending Stocks -->
+                      <div class="accordion-item border-0 mb-3 rounded-4">
+                        <h3 class="accordion-header">
+                          <button class="accordion-button collapsed rounded-4 fs-5 p-4" type="button" data-bs-toggle="collapse" data-bs-target="#trendingStocks">
+                            <i class="fas fa-chart-bar me-2"></i>Trending Stocks
+                          </button>
+                        </h3>
+                        <div id="trendingStocks" class="accordion-collapse collapse" data-bs-parent="#learningAccordion">
+                          <div class="accordion-body">
+                            <ul class="list-unstyled fs-5">
+                              <li></i>High Volume Stocks</li>
+                              <li><i class="fas fa-check-circle text-success me-2 fs-5"></i>High volume indicates strong liquidity and market interest, making it easier to trade and spot potential price movements.</li>
+                              <li></i>High Delivery Percentage Stocks</li>
+                              <li><i class="fas fa-check-circle text-success me-2 fs-5"></i>A high delivery percentage shows long-term investor confidence, suggesting accumulation and potential future growth.</li>
+                            </ul>
+                          </div>
                         </div>
-                    </div>
-
-                    <div class="market-details mt-5">
-                        <div class="row">
-                            <div class="col-lg-6 mb-4">
-                                <div class="detail-card">
-                                    <h4 class="detail-title mb-3 text-success fs-2 fw-bold">Stocks to watch</h4>
-                                    <p class="text-dark fs-5">Here you get a curated list of stocks in the news, with only relevant updates from reputable sources and publications. We sort it out for you and present it in simple language, helping you anticipate market movements for today.</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 mb-4">
-                                <div class="detail-card">
-                                    <h4 class="detail-title mb-3 text-success fs-2 fw-bold">Earnings Snapshot (Post Market Hours)</h4>
-                                    <p class="text-dark fs-5">During peak result season, hundreds of companies announce their earnings, making it tough for busy individuals to keep up. We simplify it for you by providing a quick, easy-to-understand analysis of whether the results were GOOD, BAD, or NEUTRAL. Our analysis focuses on key parameters like Revenue, EBITDA, EBITDA margin, Net profit, and other critical details. This segment is mostly available during the peak result season, such as the start of the earnings season. Once the major results season is over, we may skip this part for easier reading.</p>
-                                </div>
-                            </div>
+                      </div>
+                  
+                      <!-- Market Summary -->
+                      <div class="accordion-item border-0 mb-3 rounded-4">
+                        <h3 class="accordion-header">
+                          <button class="accordion-button collapsed rounded-4 fs-5 p-4" type="button" data-bs-toggle="collapse" data-bs-target="#marketSummary">
+                            <i class="fas fa-chart-line me-2"></i>Market Summary
+                          </button>
+                        </h3>
+                        <div id="marketSummary" class="accordion-collapse collapse" data-bs-parent="#learningAccordion">
+                          <div class="accordion-body">
+                            <ul class="list-unstyled fs-5">
+                              <li><i class="fas fa-check-circle text-success me-2"></i>Start your day with a quick and clear guide to everything you need to know before the market opens...</li>
+                            </ul>
+                          </div>
                         </div>
-                    </div>
-
-                    <div class="market-details mt-5">
-                        <div class="row">
-                            <div class="col-lg-4 mb-4">
-                                <div class="detail-card">
-                                    <h4 class="detail-title mb-3 text-success fs-2 fw-bold">Today's IPO Highlights</h4>
-                                    <p class="text-dark fs-5">Here, you'll find all the important IPO updates in one place! Stay informed about IPO listings, ongoing subscriptions, and those closing today – everything you need is right here.</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 mb-4">
-                                <div class="detail-card">
-                                    <h4 class="detail-title mb-3 text-success fs-2 fw-bold">F&O Updates</h4>
-                                    <p class="text-dark fs-5">Check which stocks are currently under the F&O ban list and adjust your trading strategies accordingly!</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 mb-4">
-                                <div class="detail-card">
-                                    <h4 class="detail-title mb-3 text-success fs-2 fw-bold">Corporate Actions</h4>
-                                    <p class="text-dark fs-5">Find out which stocks are announcing Bonuses, Dividends, Splits, and Rights today! These actions can lead to price changes, enhance shareholder value, and create fresh investment opportunities. Stay updated to take advantage of these events!</p>
-                                </div>
-                            </div>
+                      </div>
+                  
+                      <!-- Key Premarket Updates -->
+                      <div class="accordion-item border-0 mb-3 rounded-4">
+                        <h3 class="accordion-header">
+                          <button class="accordion-button collapsed rounded-4 fs-5 p-4" type="button" data-bs-toggle="collapse" data-bs-target="#premarketUpdates">
+                            <i class="fas fa-shield-alt me-2"></i>Key Premarket Updates
+                          </button>
+                        </h3>
+                        <div id="premarketUpdates" class="accordion-collapse collapse" data-bs-parent="#learningAccordion">
+                          <div class="accordion-body">
+                            <ul class="list-unstyled fs-5">
+                              <li><i class="fas fa-check-circle text-success me-2"></i>Get the most important updates before the market opens. From major events to policy announcements that directly or indirectly impact the stock market, everything is summarized for you. Clear, concise, and in simple language—saving you time while keeping you informed.</li>
+                            </ul>
+                          </div>
                         </div>
-                    </div>
-
-                    <div class="market-details mt-5">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="detail-card">
-                                    <h4 class="detail-title text-center mb-4 text-success fs-2 fw-bold" >Results Today :</h4>
-                                    <p class="text-dark fs-5 text-center">Know which companies are announcing their results today! This helps you anticipate market moves and make informed investment decisions.</p>
-                                    <div class="row text-start fs-6 text-dark">
-                                        <div class="col-md-3 col-6 mb-3 ">
-                                            <p class=" mb-0">Daily Market Insights 📊</p>
-                                        </div>
-                                        <div class="col-md-3 col-6 mb-3">
-                                            <p class=" mb-0">No Fluff, Only Facts ✂</p>
-                                        </div>
-                                        <div class="col-md-3 col-6 mb-3">
-                                            <p class=" mb-0">Ready Before 9 AM 🚀</p>
-                                        </div>
-                                        <div class="col-md-3 col-6 mb-3">
-                                            <p class=" mb-0">Stocks Worth Watching 🔍</p>
-                                        </div>
-                                        <div class="col-md-3 col-6 mb-3">
-                                            <p class=" mb-0">Beginner-Friendly Format ✅</p>
-                                        </div>
-                                        <div class="col-md-3 col-6 mb-3">
-                                            <p class=" mb-0">Save Time, Make Smart Moves ⏰</p>
-                                        </div>
-                                        <div class="col-md-3 col-6 mb-3">
-                                            <p class=" mb-0">Affordable & Valuable 💰</p>
-                                        </div>
-                                        <div class="col-md-3 col-6 mb-3">
-                                            <p class=" mb-0">Future Updates Free 🚀</p>
-                                        </div>
-                                        <div class="col-md-3 col-6 mb-3">
-                                            <p class=" mb-0">Easy Understanding ✅</p>
-                                        </div>
-                                        <div class="col-md-3 col-6 mb-3">
-                                            <p class=" mb-0">Latest News Updates 📰</p>
-                                        </div>
-                                        <div class="col-md-3 col-6 mb-3">
-                                            <p class=" mb-0">All-in-One: No Need for Multiple Sources 🌐</p>
-                                        </div>
-                                        <div class="col-md-3 col-6 mb-3">
-                                            <p class=" mb-0">Premium Quality at a Budget Price 💎</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                      </div>
+                  
+                      <!-- Technical Analysis -->
+                      <div class="accordion-item border-0 mb-3 rounded-4">
+                        <h3 class="accordion-header">
+                          <button class="accordion-button collapsed rounded-4 fs-5 p-4" type="button" data-bs-toggle="collapse" data-bs-target="#technicalAnalysis">
+                            <i class="fas fa-chart-line me-2"></i>Technical Analysis
+                          </button>
+                        </h3>
+                        <div id="technicalAnalysis" class="accordion-collapse collapse" data-bs-parent="#learningAccordion">
+                          <div class="accordion-body">
+                            <ul class="list-unstyled fs-5">
+                              <li><i class="fas fa-check-circle text-success me-2"></i>Get a clear market view with technical analysis of Nifty, Bank Nifty, call and put option trends, and FII/DII activity. All insights are sourced from trusted publications to help you trade smarter and stay ahead.</li>
+                            </ul>
+                          </div>
                         </div>
+                      </div>
+                  
+                      <!-- Stocks to Watch -->
+                      <div class="accordion-item border-0 mb-3 rounded-4">
+                        <h3 class="accordion-header">
+                          <button class="accordion-button collapsed rounded-4 fs-5 p-4" type="button" data-bs-toggle="collapse" data-bs-target="#stocksToWatch">
+                            <i class="fas fa-wrench me-2"></i>Stocks to Watch
+                          </button>
+                        </h3>
+                        <div id="stocksToWatch" class="accordion-collapse collapse" data-bs-parent="#learningAccordion">
+                          <div class="accordion-body">
+                            <ul class="list-unstyled fs-5">
+                              <li><i class="fas fa-check-circle text-success me-2"></i>Here you get a curated list of stocks in the news, with only relevant updates from reputable sources and publications. We sort it out for you and present it in simple language, helping you anticipate market movements for today.</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                  
+                      <!-- Earnings Snapshots -->
+                      <div class="accordion-item border-0 mb-3 rounded-4">
+                        <h3 class="accordion-header">
+                          <button class="accordion-button collapsed rounded-4 fs-5 p-4" type="button" data-bs-toggle="collapse" data-bs-target="#earningsSnapshots">
+                            <i class="fas fa-briefcase me-2"></i>Earnings Snapshots
+                          </button>
+                        </h3>
+                        <div id="earningsSnapshots" class="accordion-collapse collapse" data-bs-parent="#learningAccordion">
+                          <div class="accordion-body">
+                            <ul class="list-unstyled fs-5">
+                              <li><i class="fas fa-check-circle text-success me-2"></i>During peak result season, hundreds of companies announce their earnings, making it tough for busy individuals to keep up. We simplify it for you by providing a quick, easy-to-understand analysis of whether the results were GOOD, BAD, or NEUTRAL. Our analysis focuses on key parameters like Revenue, EBITDA, EBITDA margin, Net profit, and other critical details. This segment is mostly available during the peak result season, such as the start of the earnings season. Once the major results season is over, we may skip this part for easier reading.                      </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                  
+                      <!-- Today's IPO Updates -->
+                      <div class="accordion-item border-0 mb-3 rounded-4">
+                        <h3 class="accordion-header">
+                          <button class="accordion-button collapsed rounded-4 fs-5 p-4" type="button" data-bs-toggle="collapse" data-bs-target="#ipoUpdates">
+                            <i class="fas fa-briefcase me-2"></i>Today's IPO Updates
+                          </button>
+                        </h3>
+                        <div id="ipoUpdates" class="accordion-collapse collapse" data-bs-parent="#learningAccordion">
+                          <div class="accordion-body">
+                            <ul class="list-unstyled fs-5">
+                              <li><i class="fas fa-check-circle text-success me-2"></i>Here, you'll find all the important IPO updates in one place! Stay informed about IPO listings, ongoing subscriptions, and those closing today – everything you need is right here.</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                  
+                      <!-- F&O Updates -->
+                      <div class="accordion-item border-0 mb-3 rounded-4">
+                        <h3 class="accordion-header">
+                          <button class="accordion-button collapsed rounded-4 fs-5 p-4" type="button" data-bs-toggle="collapse" data-bs-target="#foUpdates">
+                            <i class="fas fa-briefcase me-2"></i>F&O Updates
+                          </button>
+                        </h3>
+                        <div id="foUpdates" class="accordion-collapse collapse" data-bs-parent="#learningAccordion">
+                          <div class="accordion-body">
+                            <ul class="list-unstyled fs-5">
+                              <li><i class="fas fa-check-circle text-success me-2"></i>Check which stocks are currently under the F&O ban list and adjust your trading strategies accordingly!</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                  
+                      <!-- Corporate Actions -->
+                      <div class="accordion-item border-0 mb-3 rounded-4">
+                        <h3 class="accordion-header">
+                          <button class="accordion-button collapsed rounded-4 fs-5 p-4" type="button" data-bs-toggle="collapse" data-bs-target="#corporateActions">
+                            <i class="fas fa-briefcase me-2"></i>Corporate Actions
+                          </button>
+                        </h3>
+                        <div id="corporateActions" class="accordion-collapse collapse" data-bs-parent="#learningAccordion">
+                          <div class="accordion-body">
+                            <ul class="list-unstyled fs-5">
+                              <li><i class="fas fa-check-circle text-success me-2"></i>Find out which stocks are announcing Bonuses, Dividends, Splits, and Rights today! These actions can lead to price changes, enhance shareholder value, and create fresh investment opportunities. Stay updated to take advantage of these events!</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                  
+                      <!-- Final Section -->
+                      <div class="accordion-item border-0 mb-3 rounded-4">
+                        <h3 class="accordion-header">
+                          <button class="accordion-button collapsed bg-white rounded-4 fs-5 p-4" type="button" data-bs-toggle="collapse" data-bs-target="#resultsToday">
+                            <i class="fas fa-chart-bar me-2 text-dark"></i>Why is our Market Monitor PDF a must-have for you?
+                          </button>
+                        </h3>
+                        <div id="resultsToday" class="accordion-collapse collapse" data-bs-parent="#learningAccordion">
+                          <div class="accordion-body">
+                            <ul class="list-unstyled fs-5">
+                              <li><i class="fas fa-check-circle text-success me-2"></i>Daily Market Insights 📊</li>
+                              <li><i class="fas fa-check-circle text-success me-2 fs-5"></i>Ready Before 9 AM 🚀</li>
+                              <li><i class="fas fa-check-circle text-success me-2"></i>Beginner-Friendly Format ✅</li>
+                              <li><i class="fas fa-check-circle text-success me-2 fs-5"></i>Affordable & Valuable 💰</li>
+                              <li><i class="fas fa-check-circle text-success me-2"></i>Easy Understanding ✅</li>
+                              <li><i class="fas fa-check-circle text-success me-2 fs-5"></i>No Fluff, Only Facts ✂</li>
+                              <li><i class="fas fa-check-circle text-success me-2"></i>Stocks Worth Watching 🔍</li>
+                              <li><i class="fas fa-check-circle text-success me-2 fs-5"></i>Save Time, Make Smart Moves ⏰</li>
+                              <li><i class="fas fa-check-circle text-success me-2"></i>Future Updates Free 🚀</li>
+                              <li><i class="fas fa-check-circle text-success me-2 fs-5"></i>Latest News Updates 📰</li>
+                              <li><i class="fas fa-check-circle text-success me-2"></i>Premium Quality at a Budget Price 💎</li>
+                              <li><i class="fas fa-check-circle text-success me-2 fs-5"></i>All-in-One: No Need for Multiple Sources 🌐</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                 
                     </div>
+                  </div>
                 </div>
             </div>
         </div>
@@ -287,8 +359,8 @@
     <section class="py-5 section-FAQ">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 mx-auto text-center">
-                    <h2 class="section-title">Frequently Asked Questions</h2>
+                <div class="col-lg-12 mx-auto text-center ">
+                    <h2 class="section-title ">Frequently Asked Questions</h2>
                     <p class="section-description text-white">
                         Find answers to common questions about our Pre-Market Report service.
                     </p>
@@ -303,8 +375,8 @@
                                     How will I receive the daily PDF?
                                 </button>
                             </h2>
-                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">
+                            <div id="faq1" class="accordion-collapse collapse show bg-white" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body text-dark">
                                     You will receive the daily PDF directly on your WhatsApp every Monday to Friday between 7:30 AM and 8:30 AM. Please note, the report will not be sent on market holidays.
                                 </div>
                             </div>
@@ -315,8 +387,8 @@
                                     Can I see a sample PDF?
                                 </button>
                             </h2>
-                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">
+                            <div id="faq2" class="accordion-collapse collapse bg-white" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body text-dark">
                                     Yes, just click the button below to view a sample.
                                 </div>
                             </div>
@@ -327,8 +399,8 @@
                                     Can we request a refund?
                                 </button>
                             </h2>
-                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">
+                            <div id="faq3" class="accordion-collapse collapse bg-white" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body text-dark">
                                     Please check our Refund & Cancellation Policy section. If you wish to explore first, we're happy to share the next day's report as a goodwill gesture.
                                 </div>
                             </div>
@@ -339,8 +411,8 @@
                                     Will my subscription auto-renew after the plan ends?
                                 </button>
                             </h2>
-                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">
+                            <div id="faq4" class="accordion-collapse collapse bg-white" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body text-dark">
                                     No, we do not auto-renew subscriptions. We believe in giving you full control—renew only if you're satisfied. You'll receive a reminder 2 days before your plan expires, so you can choose to renew at your convenience.
                                 </div>
                             </div>
@@ -351,8 +423,8 @@
                                     Is this worth the money?
                                 </button>
                             </h2>
-                            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">
+                            <div id="faq5" class="accordion-collapse collapse bg-white" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body text-dark">
                                     Definitely! Unlike those flashy bonus offers you might see elsewhere, we focus on real value. For a very affordable price, you get time-saving market updates and insights that are truly worth it. The value you receive is far beyond what you pay!
                                 </div>
                             </div>
@@ -363,8 +435,8 @@
                                     Future Updates – Always Free
                                 </button>
                             </h2>
-                            <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">
+                            <div id="faq6" class="accordion-collapse collapse bg-white" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body text-dark">
                                     If we introduce new sections or features to our report, you'll receive them at no extra cost. Our goal is to ensure you always get the most comprehensive and valuable premarket report from us!
                                 </div>
                             </div>
@@ -375,8 +447,8 @@
                                     Do you have any questions?
                                 </button>
                             </h2>
-                            <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">
+                            <div id="faq7" class="accordion-collapse collapse bg-white" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body text-dark">
                                     Feel free to reach out to us at:<br>
                                     Email: <a href="mailto:fincomerley@gmail.com" class="text-white">fincomerley@gmail.com</a><br>
                                     Phone: <a href="tel:+919400829314" class="text-white">+91 9400829314</a>

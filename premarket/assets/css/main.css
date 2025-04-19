@@ -63,21 +63,8 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
     position: relative;
     overflow: hidden;
+    background: rgb(255, 225, 0);
 }
-
-.step-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(135deg, rgba(114, 255, 250, 0.1), rgba(122, 120, 247, 0.1));
-    opacity: 1;
-    transition: opacity 0.3s ease;
-}
-
-
 
 .step-icon {
     width: 70px;
@@ -547,6 +534,11 @@
     margin: 0;
 }
 
+#mobile-menu{
+    display: none;
+}
+
+
 @media (max-width: 992px) {
     .aximo-footer-menu ul {
         gap: 1rem;
@@ -575,5 +567,31 @@
     .aximo-copywright {
         text-align: center;
     }
+
+    #mobile-menu{
+        display: block;
+    }
+    #desktop-menu{
+        display: none;
+    }
 }
 
+@media screen and (max-width: 576px) {
+    .hero-section h1 {
+        font-size: 28px;
+    }
+    
+
+}
+
+@media screen and (max-width: 400px) {
+    .hero-section .hero_box span {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .hero-section .hero_box span {
+        font-size: 12px;
+    }
+}

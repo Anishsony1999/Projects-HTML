@@ -791,7 +791,7 @@ height: 267px;
               </div>
               <div class="aximo-accordion-item">
                 <div class="aximo-accordion-header">
-                  <h5>14. Will this book teach me to predict the stock market?🔮</h5>
+                  <h5>14. Will this book teach me to predict&nbsp;the stock market?🔮</h5>
                   <div class="aximo-accordion-icon active">
                     <i class="fa fa-minus"></i>
                   </div>
@@ -805,7 +805,7 @@ height: 267px;
               </div>
               <div class="aximo-accordion-item">
                 <div class="aximo-accordion-header">
-                  <h5>15. Does this book include real examples?📝</h5>
+                  <h5>15. Does this book include real&nbsp;examples?📝</h5>
                   <div class="aximo-accordion-icon active">
                     <i class="fa fa-minus"></i>
                   </div>
@@ -819,7 +819,7 @@ height: 267px;
               </div>
               <div class="aximo-accordion-item">
                 <div class="aximo-accordion-header">
-                  <h5>16. Is this book a quick read?⚡</h5>
+                  <h5>16. Is this book a quick&nbsp;read?⚡</h5>
                   <div class="aximo-accordion-icon active">
                     <i class="fa fa-minus"></i>
                   </div>
@@ -833,7 +833,7 @@ height: 267px;
               </div>
               <div class="aximo-accordion-item">
                 <div class="aximo-accordion-header">
-                  <h5>17. Can I apply the lessons immediately?✨</h5>
+                  <h5>17. Can I apply the lessons&nbsp;immediately?✨</h5>
                   <div class="aximo-accordion-icon active">
                     <i class="fa fa-minus"></i>
                   </div>
@@ -843,6 +843,20 @@ height: 267px;
                 </div>
                 <div class="aximo-accordion-body">
                   <p>Yes, the strategies are practical and easy to implement.</p>
+                </div>
+              </div>
+              <div class="aximo-accordion-item">
+                <div class="aximo-accordion-header">
+                  <h5>18.Q: What is the language&nbsp;of&nbsp;this book?</h5>
+                  <div class="aximo-accordion-icon active">
+                    <i class="fa fa-minus"></i>
+                  </div>
+                  <div class="aximo-accordion-icon inactive">
+                    <i class="fa fa-plus"></i>
+                  </div>
+                </div>
+                <div class="aximo-accordion-body">
+                  <p>The e-book is written in English..</p>
                 </div>
               </div>
             </div>
@@ -986,34 +1000,32 @@ height: 267px;
 
 
 <script>
-  const clock = document.getElementById('clock');
-  // Fix the selectors to target the correct elements
-  const hoursEl = clock.children[0].querySelector('p');
-  const minutesEl = clock.children[1].querySelector('p');
-  const secondsEl = clock.children[2].querySelector('p');
+const clock = document.getElementById('clock');
 
-  function updateClock() {
-    const now = new Date();
-    
-    // Get current hours and minutes
-    const currentHours = now.getHours();
-    const currentMinutes = now.getMinutes();
-    const currentSeconds = now.getSeconds();
+const minutesEl = clock.children[1].querySelector('p');
+const secondsEl = clock.children[2].querySelector('p');
 
-    // Calculate remaining time until midnight
-    let hours = 23 - currentHours;
-    let minutes = 59 - currentMinutes;
-    let seconds = 59 - currentSeconds;
+let countdown = 10 * 60; 
 
-    // Update display with padded zeros
-    hoursEl.textContent = hours.toString().padStart(2, '0');
-    minutesEl.textContent = minutes.toString().padStart(2, '0');
-    secondsEl.textContent = seconds.toString().padStart(2, '0');
+function updateClock() {
+  const minutes = Math.floor(countdown / 60);
+  const seconds = countdown % 60;
+
+  minutesEl.textContent = minutes.toString().padStart(2, '0');
+  secondsEl.textContent = seconds.toString().padStart(2, '0');
+
+
+  countdown--;
+
+  if (countdown < 0) {
+    countdown = 10 * 60;
   }
+}
 
-  // Update immediately and then every second
-  updateClock();
-  setInterval(updateClock, 1000);
+updateClock();
+setInterval(updateClock, 1000);
+
+
 </script>
 
 <script>
