@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 .hero-section {
@@ -10,7 +11,7 @@
     background-position: center;
     background-repeat: no-repeat; */
     /* height: 100vh; */
-    background: #000;
+    /* background: #000; */
     /* background: linear-gradient(180deg, rgba(27, 240, 239, 1) 46%, rgba(148, 196, 63, 1) 97%); */
     /* background: linear-gradient(92.05deg, #d2a8ff 12.09%, #f778ba 42.58%, #ff7b72 84.96%); */
 }
@@ -18,23 +19,28 @@
 .hero-section h1 {
     font-size: 56px;
     font-weight: 700;
-    color: #fff;
+    color: #fefdfd;
     line-height: 1.2;
 }
 
-.hero-section h1 span{
-    background: linear-gradient(92.05deg, #83b522 12.09%, #2ceef0 42.58%, #2ceef0 84.96%);
+/* .hero-section h1 span{
+    background: linear-gradient(320deg, #83b522 12.09%, #2ceef0 42.58%, #2ceef0 84.96%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-clip: text; /* For Firefox */
+    background-clip: text;
     color: transparent;
-}
+} */
 
-.hero_box{
+/* .hero_box{
     color: #fff;
     border: 2px solid transparent;
     background: linear-gradient(#000, #000) padding-box, linear-gradient(92.05deg, #2ceef0 12.09%, #2ceef0 42.58%, #83b522 84.96%) border-box;
+} */
+.hero_box{
+    background: #fff;
+    border: 2px solid #000;
 }
+
 .hero-section p {
     font-size: 20px;
     font-weight: 400;
@@ -43,7 +49,7 @@
 
 /* How It Works Section Styles */
 #how-it-works {
-    background: linear-gradient(180deg, #000000 0%, #1a1a1a 100%);
+    background: #e4e3e3;
     padding: 5rem 0;
     color: #fff;
 }
@@ -52,7 +58,6 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
-    margin-top: 3rem;
 }
 
 .step-card {
@@ -144,7 +149,7 @@
 
 /* Pre-Market Section Styles */
 .section-Pre-Market {
-    background: linear-gradient(180deg, #1a1a1a 0%, #000000 100%);
+    background: #fffef8;
     padding: 5rem 0;
     color: #fff;
 }
@@ -155,18 +160,6 @@
     margin-bottom: 1.5rem;
     position: relative;
     display: inline-block;
-}
-
-.section-title::after {
-    content: '';
-    position: absolute;
-    bottom: -10px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 80px;
-    height: 3px;
-    background: linear-gradient(90deg, #2ceef0, #83b522);
-    border-radius: 3px;
 }
 
 .section-description {
@@ -361,119 +354,6 @@
 .feature-item i {
     color: #2ceef0;
     font-size: 1.2rem;
-}
-
-/* Responsive Styles for Market Details */
-@media (max-width: 768px) {
-    .detail-card {
-        padding: 1.5rem;
-    }
-    
-    .features-list {
-        grid-template-columns: 1fr;
-    }
-    
-    .detail-title {
-        font-size: 1.2rem;
-    }
-}
-
-/* FAQ Section Styles */
-.section-FAQ {
-    background: linear-gradient(0deg, #1a1a1a 10%, #000000 100%);
-    position: relative;
-    overflow: hidden;
-}
-
-.section-FAQ::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(45deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.02) 100%);
-    z-index: 1;
-}
-
-.section-FAQ .section-title {
-    position: relative;
-    z-index: 2;
-    color: #fff;
-    font-size: clamp(2rem, 4vw, 3rem);
-    margin-bottom: 1rem;
-    background: linear-gradient(45deg, #fff, #aaa);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.section-FAQ .section-description {
-    position: relative;
-    z-index: 2;
-    color: rgba(255, 255, 255, 0.8);
-    font-size: clamp(1rem, 2vw, 1.2rem);
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.section-FAQ .accordion {
-    position: relative;
-    z-index: 2;
-}
-
-.section-FAQ .accordion-item {
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 8px;
-    margin-bottom: 1rem;
-    overflow: hidden;
-    transition: all 0.3s ease;
-}
-
-
-.section-FAQ .accordion-button {
-    background: transparent;
-    color: #fff;
-    font-weight: 500;
-    font-size: 1.1rem;
-    padding: 1.25rem;
-    border: none;
-    box-shadow: none;
-}
-
-.section-FAQ .accordion-button:not(.collapsed) {
-    background: rgba(255, 255, 255, 0.1);
-    color: #fff;
-}
-
-.section-FAQ .accordion-button::after {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
-}
-
-.section-FAQ .accordion-body {
-    background: rgba(255, 255, 255, 0.03);
-    color: rgba(255, 255, 255, 0.9);
-    padding: 1.25rem;
-    font-size: 1rem;
-    line-height: 1.6;
-}
-
-.section-FAQ .accordion-body a {
-    color: #fff;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-@media (max-width: 768px) {
-    .section-FAQ .accordion-button {
-        font-size: 1rem;
-        padding: 1rem;
-    }
-    
-    .section-FAQ .accordion-body {
-        padding: 1rem;
-        font-size: 0.95rem;
-    }
 }
 
 /* Footer Styles */
