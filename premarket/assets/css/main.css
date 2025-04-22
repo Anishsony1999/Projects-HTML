@@ -10,7 +10,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; */
-    height: 100vh;
+    /* height: 100vh; */
     /* background: #000; */
     /* background: linear-gradient(180deg, rgba(27, 240, 239, 1) 46%, rgba(148, 196, 63, 1) 97%); */
     /* background: linear-gradient(92.05deg, #d2a8ff 12.09%, #f778ba 42.58%, #ff7b72 84.96%); */
@@ -453,7 +453,7 @@
 
 @media screen and (max-width: 576px) {
     .hero-section h1 {
-        font-size: 28px;
+        font-size: 30px;
     }
     
 
