@@ -10,7 +10,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; */
-    /* height: 100vh; */
+    height: 100vh;
     /* background: #000; */
     /* background: linear-gradient(180deg, rgba(27, 240, 239, 1) 46%, rgba(148, 196, 63, 1) 97%); */
     /* background: linear-gradient(92.05deg, #d2a8ff 12.09%, #f778ba 42.58%, #ff7b72 84.96%); */
@@ -382,7 +382,6 @@
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    gap: 20px;
 }
 
 .aximo-footer-menu li {
@@ -420,10 +419,6 @@
 
 
 @media (max-width: 992px) {
-    .aximo-footer-menu ul {
-        gap: 1rem;
-    }
-    
     .aximo-footer-menu a {
         font-size: 0.9rem;
     }
@@ -437,7 +432,7 @@
     .aximo-footer-menu ul {
         flex-direction: column;
         align-items: center;
-        gap: 1.5rem;
+
     }
     
     .aximo-footer-menu a {
@@ -475,3 +470,39 @@
         font-size: 12px;
     }
 }
+
+@media screen and (max-width: 576px) {
+    .box_content .step-card{
+        height: 110px;
+    }
+}
+
+.subscribe-btn {
+    border: 2px solid transparent;
+    animation: buttonBorderGlow 3s linear infinite;
+    box-shadow: 0 0 15px rgba(27, 240, 239, 0.5);
+  }
+
+@keyframes buttonBorderGlow {
+    0% { 
+        border-color: #1BF0EF;
+        box-shadow: 0 0 15px rgba(27, 240, 239, 0.5);
+    }
+    25% { 
+        border-color: #94C43F;
+        box-shadow: 0 0 20px rgba(148, 196, 63, 0.5);
+    }
+    50% { 
+        border-color: #1BF0EF;
+        box-shadow: 0 0 25px rgba(27, 240, 239, 0.7);
+    }
+    75% { 
+        border-color: #94C43F;
+        box-shadow: 0 0 20px rgba(148, 196, 63, 0.5);
+    }
+    100% { 
+        border-color: #1BF0EF;
+        box-shadow: 0 0 15px rgba(27, 240, 239, 0.5);
+    }
+  }
+  
