@@ -1,8 +1,30 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-Italic.woff2') format('woff2');
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    font-family: 'Poppins', sans-serif;
 }
 
 .hero-section {
@@ -14,13 +36,6 @@
     /* background: #000; */
     /* background: linear-gradient(180deg, rgba(27, 240, 239, 1) 46%, rgba(148, 196, 63, 1) 97%); */
     /* background: linear-gradient(92.05deg, #d2a8ff 12.09%, #f778ba 42.58%, #ff7b72 84.96%); */
-}
-
-.hero-section h1 {
-    font-size: 56px;
-    font-weight: 700;
-    color: #fefdfd;
-    line-height: 1.2;
 }
 
 /* .hero-section h1 span{
@@ -36,9 +51,13 @@
     border: 2px solid transparent;
     background: linear-gradient(#000, #000) padding-box, linear-gradient(92.05deg, #2ceef0 12.09%, #2ceef0 42.58%, #83b522 84.96%) border-box;
 } */
-.hero_box{
-    background: #fff;
-    border: 2px solid #000;
+h1{
+    line-height: 2px;
+    font-weight: bold;
+}
+h2{
+    line-height: 2px;
+    font-weight: bold;
 }
 
 .hero-section p {
@@ -49,7 +68,7 @@
 
 /* How It Works Section Styles */
 #how-it-works {
-    background: #e4e3e3;
+    /* background: #e4e3e3; */
     padding: 5rem 0;
     color: #fff;
 }
@@ -453,7 +472,7 @@
 
 @media screen and (max-width: 576px) {
     .hero-section h1 {
-        font-size: 30px;
+        font-size: 38px;
     }
     
 

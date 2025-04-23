@@ -4982,7 +4982,7 @@ a.aximo-service-icon:hover {
 }
 @media (max-width: 991px) {
   .aximo-accordion-wrap2 .aximo-accordion-item {
-    padding: 24px;
+    padding: 18px;
   }
 }
 .aximo-accordion-wrap2 .aximo-accordion-item.open .active {
