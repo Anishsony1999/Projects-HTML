@@ -157,6 +157,10 @@ h2{
         height: 60px;
     }
     
+    .secondline{
+        font-size: 30px;
+    }
+
     .step-icon i {
         font-size: 1.5rem;
     }
@@ -472,7 +476,8 @@ h2{
 
 @media screen and (max-width: 576px) {
     .hero-section h1 {
-        font-size: 38px;
+        font-size: 40px;
+        line-height: 1.1;
     }
     
 

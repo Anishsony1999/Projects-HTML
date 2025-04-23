@@ -367,12 +367,7 @@ h6 {
   font-weight: 700;
   margin: 0;
 }
-.h1,
-h1 {
-  font-size: 64px;
-  letter-spacing: -1px;
-  line-height: 1em;
-}
+
 @media (max-width: 1400px) {
   .h1,
   h1 {
@@ -4974,7 +4969,7 @@ a.aximo-service-icon:hover {
   }
 }
 .aximo-accordion-wrap2 .aximo-accordion-item {
-  padding: 30px;
+  padding: 18px;
   border-radius: 5px;
   background-color: #ebeae4;
   box-shadow: none;
@@ -4982,7 +4977,7 @@ a.aximo-service-icon:hover {
 }
 @media (max-width: 991px) {
   .aximo-accordion-wrap2 .aximo-accordion-item {
-    padding: 18px;
+    padding: 15px;
   }
 }
 .aximo-accordion-wrap2 .aximo-accordion-item.open .active {
