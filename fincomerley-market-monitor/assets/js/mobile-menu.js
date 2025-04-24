@@ -1,27 +1,31 @@
 // Mobile Menu Functionality
 document.addEventListener('DOMContentLoaded', function() {
-    const mobileMenuTrigger = document.querySelector('.mobile-menu-trigger');
+    // Select ALL menu triggers (both desktop and mobile)
+    const menuTriggers = document.querySelectorAll('.mobile-menu-trigger');
     const mobileMenuOverlay = document.querySelector('.mobile-menu-overlay');
     const mobileMenuClose = document.querySelector('.mobile-menu-close');
 
-    // Open mobile menu
-    mobileMenuTrigger.addEventListener('click', function() {
-        mobileMenuOverlay.classList.add('active');
-        document.body.style.overflow = 'hidden'; // Prevent scrolling when menu is open
+    // Add click event to all triggers
+    menuTriggers.forEach(trigger => {
+        trigger.addEventListener('click', function() {
+            mobileMenuOverlay.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        });
     });
 
-    // Close mobile menu
-    mobileMenuClose.addEventListener('click', function() {
-        mobileMenuOverlay.classList.remove('active');
-        document.body.style.overflow = ''; // Restore scrolling
-    });
+    if (mobileMenuClose) {
+        mobileMenuClose.addEventListener('click', function() {
+            mobileMenuOverlay.classList.remove('active');
+            document.body.style.overflow = '';
+        });
+    }
 
     // Close menu when clicking on a link
     const mobileMenuLinks = document.querySelectorAll('.mobile-menu-list a');
     mobileMenuLinks.forEach(link => {
         link.addEventListener('click', function() {
             mobileMenuOverlay.classList.remove('active');
-            document.body.style.overflow = ''; // Restore scrolling
+            document.body.style.overflow = '';
         });
     });
 }); 
