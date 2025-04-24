@@ -4,77 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fincomerley Market Monitor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="icon" href="assets/images/favicon.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/appcss/app.min.css">
-    <style>
-        /* Mobile Menu Styles */
-        .mobile-menu-overlay {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.9);
-            z-index: 1000;
-            display: none;
-            transition: all 0.3s ease;
-        }
-
-        .mobile-menu-overlay.active {
-            display: block;
-        }
-
-        .mobile-menu-close {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            color: white;
-            font-size: 24px;
-            cursor: pointer;
-        }
-
-        .mobile-menu-content {
-            padding: 80px 20px;
-        }
-
-        .mobile-menu-list {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        .mobile-menu-list li {
-            margin-bottom: 20px;
-        }
-
-        .mobile-menu-list li a {
-            color: white;
-            text-decoration: none;
-            font-size: 18px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            transition: all 0.3s ease;
-        }
-
-        .mobile-menu-list li a:hover {
-            color: #28a745;
-        }
-
-        .mobile-menu-trigger {
-            cursor: pointer;
-            font-size: 24px;
-        }
-
-        @media (min-width: 992px) {
-            #mobile-menu {
-                display: none;
-            }
-        }
-    </style>
 </head>
 <body>  
     <header id="desktop-menu" >
@@ -111,8 +48,8 @@
         <div class="mobile-menu-content">
           <ul class="mobile-menu-list">
             <li><a href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
-            <li><a href="#"><i class="fa-solid fa-chart-line"></i> Pre-Market Report</a></li>
-            <li><a href="#"><i class="fa-solid fa-book"></i> eBook</a></li>
+            <li><a href="#pre-market-report"><i class="fa-solid fa-chart-line"></i> Pre-Market Report</a></li>
+            <li><a href="ebook.html"><i class="fa-solid fa-book"></i> eBook</a></li>
             <li><a href="contact-us.html"><i class="fa-solid fa-address-book"></i> Contacts</a></li>
           </ul>
         </div>
@@ -121,8 +58,8 @@
         <div class="container mt-4">
             <div class="row">
                 <div class=" col-lg-12 mx-auto text-center">
-                    <div class="hero_box col-10 col-lg-6 mx-auto">
-                        <span class="border border-dark rounded-pill p-1">Trusted by Smart Traders Across India</span>
+                    <div class="hero_box d-inline-block p-1 mx-auto border border-dark rounded-pill">
+                        <span>Trusted by Smart Traders Across India</span>
                     </div>
                     <!-- <h2 class="mt-5 p-0">Starting&nbsp;Tomorrow </h2> -->
                     <h1 class="text-capitalize text-dark my-5">
@@ -197,7 +134,7 @@
     <section class="py-5 section-Pre-Market">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12 mx-auto text-center">
+          <div class="col-lg-12 mx-auto text-center" id="pre-market-report">
                     <div class="hero_box border border-dark rounded-pill p-1 col-9 col-lg-3 mx-auto text-center">
                       <span class="text-dark fw-bold">Key Features</span>
                     </div>
