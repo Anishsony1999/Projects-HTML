@@ -9,7 +9,72 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/appcss/app.min.css">
+    <style>
+        /* Mobile Menu Styles */
+        .mobile-menu-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.9);
+            z-index: 1000;
+            display: none;
+            transition: all 0.3s ease;
+        }
 
+        .mobile-menu-overlay.active {
+            display: block;
+        }
+
+        .mobile-menu-close {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .mobile-menu-content {
+            padding: 80px 20px;
+        }
+
+        .mobile-menu-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .mobile-menu-list li {
+            margin-bottom: 20px;
+        }
+
+        .mobile-menu-list li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .mobile-menu-list li a:hover {
+            color: #28a745;
+        }
+
+        .mobile-menu-trigger {
+            cursor: pointer;
+            font-size: 24px;
+        }
+
+        @media (min-width: 992px) {
+            #mobile-menu {
+                display: none;
+            }
+        }
+    </style>
 </head>
 <body>  
     <header id="desktop-menu" >
@@ -31,12 +96,27 @@
                 <img src="assets/images/fincomerly-logo24-(1)29.png" alt="" class="light-version-logo" width="220">
               </a>
             </div>
-           <div>
+           <div class="mobile-menu-trigger">
             <i class="fa-solid fa-bars"></i>
            </div>
           </nav>    
         </div>
       </header>
+
+      <!-- Mobile Menu Overlay -->
+      <div class="mobile-menu-overlay">
+        <div class="mobile-menu-close">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="mobile-menu-content">
+          <ul class="mobile-menu-list">
+            <li><a href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li><a href="#"><i class="fa-solid fa-chart-line"></i> Pre-Market Report</a></li>
+            <li><a href="#"><i class="fa-solid fa-book"></i> eBook</a></li>
+            <li><a href="contact-us.html"><i class="fa-solid fa-address-book"></i> Contacts</a></li>
+          </ul>
+        </div>
+      </div>
     <section class="hero-section">
         <div class="container mt-4">
             <div class="row">
@@ -739,5 +819,34 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
     <script src="assets/js/accordion.js"></script>
+    <script>
+        // Mobile Menu Functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuTrigger = document.querySelector('.mobile-menu-trigger');
+            const mobileMenuOverlay = document.querySelector('.mobile-menu-overlay');
+            const mobileMenuClose = document.querySelector('.mobile-menu-close');
+
+            // Open mobile menu
+            mobileMenuTrigger.addEventListener('click', function() {
+                mobileMenuOverlay.classList.add('active');
+                document.body.style.overflow = 'hidden'; // Prevent scrolling when menu is open
+            }); 
+
+            // Close mobile menu
+            mobileMenuClose.addEventListener('click', function() {
+                mobileMenuOverlay.classList.remove('active');
+                document.body.style.overflow = ''; // Restore scrolling
+            });
+
+            // Close menu when clicking on a link
+            const mobileMenuLinks = document.querySelectorAll('.mobile-menu-list a');
+            mobileMenuLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    mobileMenuOverlay.classList.remove('active');
+                    document.body.style.overflow = ''; // Restore scrolling
+                });
+            });
+        });
+    </script>
 </body>
 </html>
