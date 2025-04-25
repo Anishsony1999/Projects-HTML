@@ -604,7 +604,7 @@ height: 267px;
           </div>
           <div class="aximo-accordion-wrap aximo-accordion-wrap2" id="aximo-accordion">
             <!-- FAQ 1 -->
-            <div class="aximo-accordion-column wow fadeInUpX" data-wow-delay=".1s">
+            <div class="aximo-accordion-column wow fadeInUpX w-100" data-wow-delay=".1s">
               <div class="aximo-accordion-item open">
                 <div class="aximo-accordion-header">
                   <h5>1. How do I get this&nbsp;book?📱</h5>
@@ -990,10 +990,7 @@ height: 267px;
     <script src="./npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <!-- <script src="assets/js/menu/menu.js"></script> -->
-    <script src="assets/js/faq.js"></script>
-    <!-- <script src="assets/css/js/main.js"></script> -->
-     <script src="assets/js/mobile-menu.js"></script>
+    
    </body>
 </html>
 
@@ -1160,4 +1157,155 @@ setInterval(updateClock, 1000);
   }
 </style>
 
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Get all FAQ items
+    const faqItems = document.querySelectorAll('.aximo-accordion-item');
+    
+    // Function to close all accordions except the clicked one
+    function closeOtherAccordions(currentItem) {
+        faqItems.forEach(item => {
+            if (item !== currentItem) {
+                const body = item.querySelector('.aximo-accordion-body');
+                const activeIcon = item.querySelector('.aximo-accordion-icon.active');
+                const inactiveIcon = item.querySelector('.aximo-accordion-icon.inactive');
+                
+                item.classList.remove('open');
+                
+                // Use slideUp animation
+                if (body) {
+                    body.style.height = body.scrollHeight + 'px';
+                    setTimeout(() => {
+                        body.style.height = '0';
+                        setTimeout(() => {
+                            body.style.display = 'none';
+                            body.style.height = '';
+                        }, 300);
+                    }, 0);
+                }
+                
+                // Toggle icons
+                if (activeIcon) activeIcon.style.display = 'none';
+                if (inactiveIcon) inactiveIcon.style.display = 'block';
+            }
+        });
+    }
+    
+    // Add click event listener to each FAQ item
+    faqItems.forEach(item => {
+        const header = item.querySelector('.aximo-accordion-header');
+        const body = item.querySelector('.aximo-accordion-body');
+        const activeIcon = item.querySelector('.aximo-accordion-icon.active');
+        const inactiveIcon = item.querySelector('.aximo-accordion-icon.inactive');
+        
+        // Set initial states
+        if (!item.classList.contains('open')) {
+            body.style.display = 'none';
+            if (activeIcon) activeIcon.style.display = 'none';
+            if (inactiveIcon) inactiveIcon.style.display = 'block';
+        } else {
+            if (activeIcon) activeIcon.style.display = 'block';
+            if (inactiveIcon) inactiveIcon.style.display = 'none';
+        }
+        
+        header.addEventListener('click', function(e) {
+            e.preventDefault();
+            const isOpen = item.classList.contains('open');
+            
+            // Close other accordions
+            closeOtherAccordions(item);
+            
+            // Toggle current accordion
+            if (!isOpen) {
+                item.classList.add('open');
+                
+                // Use slideDown animation
+                body.style.display = 'block';
+                body.style.height = '0';
+                const height = body.scrollHeight;
+                body.style.height = height + 'px';
+                setTimeout(() => {
+                    body.style.height = '';
+                }, 300);
+                
+                // Toggle icons
+                if (activeIcon) activeIcon.style.display = 'block';
+                if (inactiveIcon) inactiveIcon.style.display = 'none';
+            } else {
+                item.classList.remove('open');
+                
+                // Use slideUp animation
+                body.style.height = body.scrollHeight + 'px';
+                setTimeout(() => {
+                    body.style.height = '0';
+                    setTimeout(() => {
+                        body.style.display = 'none';
+                        body.style.height = '';
+                    }, 300);
+                }, 0);
+                
+                // Toggle icons
+                if (activeIcon) activeIcon.style.display = 'none';
+                if (inactiveIcon) inactiveIcon.style.display = 'block';
+            }
+        });
+    });
+});
+</script>
+
+<style>
+.aximo-accordion-item {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    background: var(--dark-bg, #1a1a1a);
+}
+
+.aximo-accordion-header {
+    padding: 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.aximo-accordion-header h5 {
+    margin: 0;
+    flex: 1;
+}
+
+.aximo-accordion-body {
+    overflow: hidden;
+    transition: height 0.3s ease-out;
+    padding: 0 1rem;
+}
+
+.aximo-accordion-body p {
+    padding: 0 0 1rem 0;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.aximo-accordion-icon {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+.aximo-accordion-icon i {
+    transition: transform 0.3s ease;
+}
+
+.aximo-accordion-item.open .aximo-accordion-icon.active i {
+    transform: rotate(180deg);
+}
+
+.aximo-accordion-column .open p,i{
+  color: #000;
+}
+</style>
 
