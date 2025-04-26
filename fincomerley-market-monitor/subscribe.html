@@ -238,11 +238,12 @@ margin-top: 0px;
   </div>
 </div>
     <div class="container mt-5 pt-5 pb-5">
+      <h3 class="text-center">Please Select a Plan</h3>
       <!-- Pre-market Report Pricing -->
-      <div class="pricing-section mb-5">
+      <!-- <div class="pricing-section mb-5">
         <h3 class="text-center mt-5 ">Pre-market Report Pricing</h3>
         <div class="row justify-content-center g-4 mt-1">
-          <!-- Monthly Plan Card -->
+        Monthly Plan Card
           <div class="col-md-4">
             <div class="pricing-card">
               <div class="pricing-header">
@@ -250,36 +251,79 @@ margin-top: 0px;
                 <div class="limited-time">Limited Time Offer!</div>
                 <div class="price">₹149</div>
               </div>
-              <a href="#" class="btn btn-primary w-100">Select Plan</a>
+              <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_QNUeBRg3zP9thw" async> </script> </form>
             </div>
           </div>
 
-          <!-- 2 Months Plan Card -->
           <div class="col-md-4">
             <div class="pricing-card ">
               <div class="pricing-header">
                 <h3 class="m-3"> 2 Months Access</h3>
                 <div class="price">₹249</div>
               </div>
-              <a href="#" class="btn btn-primary w-100">Select Plan</a>
+              <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_QNUah7ydpsdSBY" async> </script> </form>
             </div>
           </div>
 
-          <!-- 3 Months Plan Card -->
           <div class="col-md-4">
             <div class="pricing-card">
               <div class="pricing-header">
                 <h3 class="m-3">3 Months Access</h3>
                 <div class="price">₹299</div>
               </div>
-              <a href="#" class="btn btn-primary w-100">Select Plan</a>
+              <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_QNUU6b1uhXTAPd" async> </script> </form>
             </div>
           </div>
         </div>
       </div>
       </div>
+    </div> -->
+
+    <div class="w-100 d-flex flex-column bg-primary planSection rounded-4 shadow mb-5 mt-5">
+      <div class="d-flex  justify-content-center justify-content-md-between align-items-center p-2 gap-3 flex-wrap">
+        <div class="d-flex flex-row justify-content-start align-items-start align-items-md-center gap-2">
+          <h5 class="text-white">1 Month Plan</h5>
+
+        </div>
+        <div class="d-flex wrap gap-3 justify-content-center align-items-center">
+          <p class="fs-4 text-white fw-bold m-0">
+            ₹149
+            <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_QNUeBRg3zP9thw" async> </script> </form>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="w-100 d-flex flex-column planSection rounded-4 shadow mb-5" style="background-color: #3d0092;">
+      <div class="d-flex  justify-content-center justify-content-md-between align-items-center p-2 gap-3 flex-wrap">
+        <div class="d-flex flex-row justify-content-start align-items-start align-items-md-center gap-2">
+          <h5 class="text-white">2 Months Plan</h5>
+        </div>
+        <div class="d-flex wrap gap-3 justify-content-center align-items-center">
+          <p class="fs-4 text-white fw-bold m-0"> <small ><del>₹298</del></small>
+            ₹249  
+            <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_QNUah7ydpsdSBY" async> </script> </form>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="w-100 d-flex flex-column  planSection rounded-4 shadow mb-5" style="background-color: #000;">
+      <div class="d-flex  justify-content-center justify-content-md-between align-items-center p-2 gap-3 flex-wrap">
+        <div class="d-flex flex-row justify-content-start align-items-start align-items-md-center gap-2">
+          <h5 class="text-white">3 Months Plan</h5>
+          <small class="fs-text-white text-dark fw-bold badge text-bg-succes ms-2" style="background-color: #44ef9a;"> +45% offer
+          </small>
+        </div>
+        <div class="d-flex wrap gap-3 justify-content-center align-items-center">
+          <p class="fs-4 text-white fw-bold m-0"> <small><del>₹447</del></small>
+            ₹299  
+            <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_QNUU6b1uhXTAPd" async> </script> </form>
+          </p>
+        </div>
+      </div>
     </div>
 
+    
+    </div>
     <style>
     .pricing-card {
       background: white;

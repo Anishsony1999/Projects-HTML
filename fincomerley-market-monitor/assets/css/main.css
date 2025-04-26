@@ -1,15 +1,15 @@
-@font-face {
-    font-family: "Poppins";
-    src: url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
-}
 
+@font-face{
+    font-family: "poppins";
+    src: url("Poppins-Regular.ttf")
+}
 
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: "poppins", sans-serif;
 }
 
 .hero-section {
