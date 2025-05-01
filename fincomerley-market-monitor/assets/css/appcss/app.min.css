@@ -1957,7 +1957,7 @@ header.aximo-header-section.aximo-header7.sticky-menu {
     margin: 6px 0;
   }
 }
-.aximo-footer-menu ul li a:hover {
+.aximo-footer-menu ul li a:hover , .aximo-footer-menu ul li a i:hover {
   color: var(--orange-color);
 }
 .aximo-footer-menu.light-one ul li a {
